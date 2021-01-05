@@ -39,7 +39,7 @@ async def sedlyfsir(event):
     formaster = "**😺 Hello Sammy Sir. How Can I Help You?**"
     if event.sender_id == Config.OWNER_ID:
         ok = await chatbot.send_message(event.chat_id, message=formaster, buttons = [
-             [custom.Button.inline("Help❓.", data="cmds")],
+             [custom.Button.inline("Help❓", data="cmds")],
              [custom.Button.inline("Close 🔐", data="close ")],
               ]
              )
