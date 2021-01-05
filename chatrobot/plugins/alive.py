@@ -2,7 +2,7 @@
 
 
 import time
-from chatrobot import ALIVE_NAME
+
 from datetime import datetime
 from chatrobot import Lastupdate
 from chatrobot.plugins import currentversion
