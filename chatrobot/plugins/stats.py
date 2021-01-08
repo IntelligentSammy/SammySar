@@ -23,7 +23,7 @@ async def starkisnoob(event):
 @chatbot_cmd("alive", is_args=False)
 @god_only
 async def stark(event):
-    await event.reply("<b><u>Yeah, Yes My Sammy Boss I Am Alive MADE IN INDIA 🇮🇳 MADE FOR 😍.</b></u>", parse_mode="HTML")
+    await event.reply("<b><uYl>Yes My Ravi Boss I Am Alive MADE IN INDIA 🇮🇳 MADE FOR 😍.</b></u>", parse_mode="HTML")
 
 @chatbot_cmd("repo", is_args=False)
 async def stark(event):
